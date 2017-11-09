@@ -642,6 +642,7 @@ print
 print "Med Order Name | Count"
 parseStringMatchList(jonWithRxNorm,1)
 print "******************"
+<<<<<<< HEAD
 print "Missing RxNorm Row Total: ", count
 print
 print "Med Order Name | Count"
@@ -649,6 +650,17 @@ medDescription_dic = {x:none_descriptions.count(x) for x in none_descriptions}
 for k,v in sorted(medDescription_dic.items()):
     print k,"|",v
 print "******************"
+=======
+
+
+
+# print "Missing RxNorm Row Total: ", count
+# print
+# medDescription_dic = {x:none_descriptions.count(x) for x in none_descriptions} 
+# for k,v in medDescription_dic.items():
+#     print k,"|",v
+# print "******************"
+>>>>>>> c48f4ce0009055ebcd69f612ded2cef902d8962b
 
 
 
