@@ -49,7 +49,7 @@ def parseStringMatchList(stringMatchList,num):
     if num == 0:
         return stringMatchList[0]
     if num == 1:
-        for k,v in stringMatchList[1].items():
+        for k,v in sorted(stringMatchList[1].items()):
             print k,"|",v
         return
     else:
